@@ -1,83 +1,60 @@
-// output: It's a normal day.
-// because Monday is different than monday
 
-// ATM System
+// Declaring variables
 
-let amount = 100
+let person = {
+    name: 'Max',
+    age: 32,
+    isStudent: 'true',
+    favoriteProgrammingLangage: 'JavaScript'
+}
+// Print value to console
 
-let display = (amount % 100 === 0) ? 'Withdrawal successful' : 'Invalid amount'
+console.log(person)
 
-console.log(display)
 
-//Calculator
 
-let a = 10
-let b = 2
-let calculator = 'divide'
+// Reassigning values to let and const
 
-switch(calculator) {
-  case 'add':
-    console.log(a + b)
-    break
-  case 'substract':
-    console.log(a - b)
-    break
-  case 'divide':
-    console.log(a / b)
-    break
-  case 'remainder':
-    console.log(a % b)
-    break   
+
+let city = 'Madina'
+console.log(city)
+
+city = 'Bangkok'
+console.log(city)
+
+const color = 'Red'
+console.log(color)
+
+color = 'Green'
+console.log(color)
+
+
+// Creating object
+
+
+let player = {
+    name: 'Alex',
+    age: 20,
+    class: 'Striker'
 }
 
-// Movie ticket
-
-let age = 34
-
-if (age < 18) {
-    console.log('Pay $3')
-} else if (age >= 18 && age <= 60) {
-    console.log('Pay $10')
-} else if (age > 60) {
-    console.log('Pay $8')
+runner = {
+   name: 'Alex',
+   height: 180,
+   category: 'Senior'
 }
+player = runner
 
-// Horoscope sign 
+console.log('Player', player)
 
-let mounth = 'August'
 
-switch(mounth) {
-    case 'March':
-    case 'April':
-        console.log('Aries')
-        break
-    case 'May':
-    case 'June':
-        console.log('Taurus')
-        break
-    case 'July':
-    case 'August':
-        console.log('Lion')
-        break
-    case 'September':
-    case 'October':
-        console.log('Gemini')
-        break
-    default:
-        console.log('Sorry')
-}
+// Creating array
 
-// Triangle
 
-let sides = 'All different'
+let breakFast= ['Bread', 'Butter', 'Tea', 'Sugar']
 
-switch(sides) {
-    case 'Equal':
-        console.log('Equilqteral')
-        break
-    case 'Two sides equal':
-        console.log('Isoceles')
-        break
-    case 'All different':
-        console.log('Scalene')
-}
+launch = ['Fish', 'Soup', 'Rice', 'Pepper']
+
+breakFast = launch
+
+console.log('BreakFast', breakFast)

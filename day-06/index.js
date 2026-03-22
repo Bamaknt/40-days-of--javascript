@@ -5,12 +5,16 @@ function convertTemp(celsius) {
 }
 convertTemp(33)
 
+
+
 // Max of 2
 
 function findMax(num1, num2) {
   console.log(Math.max(num1, num2))
 }
 findMax(-7, -9)
+
+
 
 // Check palindrome
 
@@ -21,6 +25,8 @@ function isPalindrome(str) {
 
 console.log(isPalindrome('wow'))
 console.log(isPalindrome('Hello'))
+
+
 
 // Find factorial
 
@@ -33,6 +39,8 @@ function factorial(n) {
 }
 
 console.log(factorial(5))
+
+
 
 // Count vowels
 
@@ -54,11 +62,18 @@ function countVowels(str) {
 console.log(countVowels('reactive'))
 
 
+//Capitalise first letter
+
+
+
+
+
 // IIFE
 
 (function() {
     console.log('Hello, Javascript!')
 })()
+
 
 
 // callback
@@ -76,8 +91,11 @@ function travel() {
 greet('Jordan', travel)
 
 
+
+
 //Call stack
 
 // Please find the diagrams link below...
 
-https://lucid.app/lucidspark/42e186eb-3263-4632-8c39-312a6c99703a/view
+// https://lucid.app/lucidspark/42e186eb-3263-4632-8c39-312a6c99703a/view
+
