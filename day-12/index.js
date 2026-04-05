@@ -65,6 +65,25 @@ student.averageGrade()
 
 
 
+// Books availability
+
+let book = {
+   Biology: 'Bio',
+   Chemistry: 'Chem',
+   Physics: 'Phy',
+   Deutsch: 'Deu',
+   Mechanics: 'Mec',
+
+
+  isAvailable(book) {
+    return this[book] !== undefined
+  }
+
+}
+console.log(book.isAvailable('Physics'))
+
+
+
 
 // Object.keys() and Objects.entries()
 
@@ -134,7 +153,7 @@ console.log(user2.settings.theme)
 
 
 
-// Object destructuring
+// Object destructuring printing values
 
 const users = [
   {
@@ -154,5 +173,8 @@ const users = [
   }
 ];
 
-const {nam, adress, age} = users
-console.log(users)
+for (let {nam, adress, age} of users) {
+  console.log(nam, adress, age)
+}
+
+
