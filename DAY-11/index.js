@@ -64,13 +64,13 @@ console.log(double(5))
 
 // Closure references an object
 
-// The object remains in memoryas long as the closure exists
+// The object remains in memory as long as the closure exists
 
 
-/* On reflexion
+// On reflexion
 // Function factory
 
-function factoryOfCounter(count) {
+function factoryOfCounter() {
     let count = 0
 
     return {
@@ -90,5 +90,9 @@ function factoryOfCounter(count) {
         }
     }
 }
-factoryOfCounter(5)
-*/
+const counter1 = factoryOfCounter()
+counter1.increment()
+counter1.increment()
+counter1.decrement()
+counter1.reset()
+
