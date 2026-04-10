@@ -1,7 +1,9 @@
 
+// Link of this value table
 
+// https://lucid.app/lucidchart/e0e39604-9498-4906-bef0-883712141991/view
 
-
+// Table picture joined at the left
 
 
 
@@ -30,6 +32,7 @@ const use = {
 
 const greetFn = use.greet()
 console.log(greetFn())
+
 
 
 
