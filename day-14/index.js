@@ -13,6 +13,7 @@ try {
 
 
 
+
 // Process Payment
 
 
@@ -189,6 +190,24 @@ readFile()
 
 
 
+// JSON.parse()
+
+
+function parseJson(str) {
+  try {
+    console.log(JSON.parse(str))
+  } catch(error) {
+    console.error('Invalid JSON', error.message)
+  }   
+}
+parseJson()
+
+
+
+
+
+
+
 // Purpose of throwin JS
 
 // It creates a new Error manually
@@ -198,6 +217,21 @@ readFile()
 
 
 
+
 // finally block in try...catch
 
 // Stops the execution of the script
+
+
+
+
+
+
+
+// Table
+
+// link
+// https://lucid.app/lucidchart/a30c3cec-20f8-4dc7-a6f1-56285befadd6/view
+
+// Or screenshot at the left
+
